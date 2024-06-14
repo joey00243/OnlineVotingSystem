@@ -19,7 +19,7 @@
     <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="dataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="username" value="root"/>
-        <property name="url" value="jdbc:mysql://54.144.249.0:3306/onlinevotingsystem"/>
+        <property name="url" value="jdbc:mysql://54.173.123.78:3306/onlinevotingsystem"/>
         <property name="password" value="root"/>
     </bean>
 
