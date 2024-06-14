@@ -5,9 +5,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/onlinevotingsystem
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_DATASOURCE_URL: jdbc:mysql://54.144.249.0:3306/onlinevotingsystem
+      # SPRING_DATASOURCE_USERNAME: root
+      # SPRING_DATASOURCE_PASSWORD: root
     depends_on:
       - db
 
