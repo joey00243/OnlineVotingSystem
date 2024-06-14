@@ -2,7 +2,7 @@
 FROM maven:3.8.6-openjdk-11 AS build
 
 # Set the working directory
-WORKDIR /app
+WORKDIR .
 
 # Copy the pom.xml and download the dependencies
 COPY pom.xml .
